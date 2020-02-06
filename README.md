@@ -8,7 +8,19 @@ To run this app:
 
   - java -jar target/scrumconnect-api-poc-0.0.1-SNAPSHOT.jar <br/>
   
-It has only 1 endpoint  http://localhost:8080/api/v1/save
-
-To run tests:
+To run tests:<br/>
 - mvn test
+
+It has only 1 endpoint  http://localhost:8080/api/v1/save<br/>
+
+You need to post data with this method body<br/>
+
+{
+	"name":"Esen",
+	"age":10,
+ 	"country":"United Kingom",
+ 	"sex":"Female"
+
+}
+
+
